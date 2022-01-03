@@ -45,7 +45,7 @@
               id="cardName"
               name="cardName"
               placeholder="New Card Name"
-            />
+              >
           </div>
           <button type="submit" class="btn btn-primary mb-2">Add card</button>
         </form>
@@ -56,24 +56,26 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <form class="forn-check p-4">
-                <input name="item_id" type="hidden" value="" />
-                <input class="form-check-input" type="checkbox" />
-                <input type="hidden" value="" />
+                <input name="item_id" type="hidden" value="">
+                <input class="form-check-input" type='checkbox'>
+                <input type="hidden" value="">
                 <label class="form-check-label" for="">Item 1</label>
               </form>
               <div class="row justify-content-center">
                 <form class="form-inline" method="post" action="/item/new">
-                    <div class="form-group mb-2">
-                        <input type="hidden" name="card_id" value="" />
-                        <input
-                            type="text"
-                            class="form-control form-control-sm"
-                            id="newItem"
-                            name="name"
-                            placeholder="New Item"
-                        />
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-sm mb-2">Add</button>
+                  <div class="form-group mb-2">
+                    <input type="hidden" name="card_id" value="">
+                    <input
+                      type="text"
+                      class="form-control form-control-sm"
+                      id="newItem"
+                      name="name"
+                      placeholder="New Item"
+                    >
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-sm mb-2">
+                    Add
+                  </button>
                 </form>
               </div>
             </div>
